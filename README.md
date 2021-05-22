@@ -1,10 +1,12 @@
-#NewsShorts
-<br>
+#N ewsShorts
+<br/>
+<br/>
 NewsShorts Built using ReactJs. It gives you the latest news about various categories such has Health, Sports , Entertainment and many more.
-<br>
+<br/>
+<br/>
 It also includes a covid-19 tracker inbuilt which displays overall active cases ,deaths and Recovered of India and all the states of India.
 
-##Api's Used:
+## Api's Used:
 
 ```
 Newsapi : https://newsapi.org/s/india-news-api
