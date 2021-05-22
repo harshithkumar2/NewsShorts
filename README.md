@@ -1,6 +1,5 @@
 ## NewsShorts
 <br/>
-<br/>
 NewsShorts Built using ReactJs. It gives you the latest news about various categories such has Health, Sports , Entertainment and many more.
 <br/>
 <br/>
@@ -16,10 +15,11 @@ It also includes a covid-19 tracker inbuilt which displays overall active cases 
 
 <br/>
 ## Features
-** 1. ** Get News with latest headlines with an Api of all categories
-** 2. ** Dark Mode Enabled
-** 3. ** Inbuilt Covid-19 Tracker
-** 4. ** Smooth and Responsive UI with Material UI
+<br/>
+**1.** Get News with latest headlines with an Api of all categories
+**2.** Dark Mode Enabled
+**3.** Inbuilt Covid-19 Tracker
+**4.** Smooth and Responsive UI with Material UI
 <br/>
 Unfortunately cannot host this webste due to Api (NewsApi) Restrictions (Developer Api)
 
