@@ -12,14 +12,20 @@ It also includes a covid-19 tracker inbuilt which displays overall active cases 
 
 <br/>
 
-## Covid-19 Api : https://api.apify.com/v2/key-value-stores/toDWvRj1JpTXiM8FF/records/LATEST?disableRedirect=true
+# Covid-19 Api : https://api.apify.com/v2/key-value-stores/toDWvRj1JpTXiM8FF/records/LATEST?disableRedirect=true
 
-
+<br/>
+## Features
+** 1. ** Get News with latest headlines with an Api of all categories
+** 2. ** Dark Mode Enabled
+** 3. ** Inbuilt Covid-19 Tracker
+** 4. ** Smooth and Responsive UI with Material UI
+<br/>
 Unfortunately cannot host this webste due to Api (NewsApi) Restrictions (Developer Api)
 
+<br/>
 
-
-##Here are the Screenshots of the project 
+## Here are the Screenshots of the project 
 
 ![](ss/s1.png)
 
