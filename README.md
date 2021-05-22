@@ -1,4 +1,4 @@
-#N ewsShorts
+## NewsShorts
 <br/>
 <br/>
 NewsShorts Built using ReactJs. It gives you the latest news about various categories such has Health, Sports , Entertainment and many more.
@@ -6,14 +6,14 @@ NewsShorts Built using ReactJs. It gives you the latest news about various categ
 <br/>
 It also includes a covid-19 tracker inbuilt which displays overall active cases ,deaths and Recovered of India and all the states of India.
 
-## Api's Used:
+### Api's Used:
 
-```
-Newsapi : https://newsapi.org/s/india-news-api
-```
-```
-Covid-19 Api : https://api.apify.com/v2/key-value-stores/toDWvRj1JpTXiM8FF/records/LATEST?disableRedirect=true
-```
+### `Newsapi : https://newsapi.org/s/india-news-api`
+
+<br/>
+
+### `Covid-19 Api : https://api.apify.com/v2/key-value-stores/toDWvRj1JpTXiM8FF/records/LATEST?disableRedirect=true`
+
 
 Unfortunately cannot host this webste due to Api (NewsApi) Restrictions (Developer Api)
 
@@ -30,6 +30,8 @@ Unfortunately cannot host this webste due to Api (NewsApi) Restrictions (Develop
 ![](ss/s4.png)
 
 
+<br/>
+<br/>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
