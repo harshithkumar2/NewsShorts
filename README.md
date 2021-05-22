@@ -12,7 +12,7 @@ It also includes a covid-19 tracker inbuilt which displays overall active cases 
 ### Covid-19 Api : https://api.apify.com/v2/key-value-stores/toDWvRj1JpTXiM8FF/records/LATEST?disableRedirect=true
 <br/>
 
-##Features
+## Features
 
  <br/>
 1. Get News with latest headlines with an Api of all categories
