@@ -8,11 +8,11 @@ It also includes a covid-19 tracker inbuilt which displays overall active cases 
 
 ### Api's Used:
 
-### `Newsapi : https://newsapi.org/s/india-news-api`
+## Newsapi : https://newsapi.org/s/india-news-api
 
 <br/>
 
-### `Covid-19 Api : https://api.apify.com/v2/key-value-stores/toDWvRj1JpTXiM8FF/records/LATEST?disableRedirect=true`
+## Covid-19 Api : https://api.apify.com/v2/key-value-stores/toDWvRj1JpTXiM8FF/records/LATEST?disableRedirect=true
 
 
 Unfortunately cannot host this webste due to Api (NewsApi) Restrictions (Developer Api)
