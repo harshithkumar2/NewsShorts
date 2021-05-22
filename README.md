@@ -21,7 +21,7 @@ Features
 <br/>
 4. Smooth and Responsive UI with Material UI
 <br/>
-
+<br/>
 Unfortunately cannot host this webste due to Api (NewsApi) Restrictions (Developer Api)
 
 <br/>
