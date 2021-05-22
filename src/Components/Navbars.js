@@ -16,6 +16,7 @@ import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 import InboxIcon from "@material-ui/icons/MoveToInbox";
+import { Link } from "react-router-dom";
 
 const Theme = React.lazy(() => import("./Theme"));
 
@@ -138,31 +139,31 @@ export default function Navbars() {
         </div>
         <Divider />
         <List>
-          <a href="/">
+          <Link to="/">
             <ListItem button key={0}>
               <ListItemIcon>
                 <InboxIcon />
               </ListItemIcon>
               <ListItemText primary={"HOME"} />
             </ListItem>
-          </a>
-          <a href="/news/Health">
+          </Link>
+          <Link to="/news/Health">
             <ListItem button key={1}>
               <ListItemIcon>
                 <InboxIcon />
               </ListItemIcon>
               <ListItemText primary={"HEALTH"} />
             </ListItem>
-          </a>
-          <a href="/news/Sports">
+          </Link>
+          <Link to="/news/Sports">
             <ListItem button key={2}>
               <ListItemIcon>
                 <InboxIcon />
               </ListItemIcon>
               <ListItemText primary={"SPORTS"} />
             </ListItem>
-          </a>
-          <a href="/news/Business">
+          </Link>
+          <a href="/#/news/Business">
             <ListItem button key={3}>
               <ListItemIcon>
                 <InboxIcon />
@@ -170,7 +171,7 @@ export default function Navbars() {
               <ListItemText primary={"BUSINESS"} />
             </ListItem>
           </a>
-          <a href="/news/Technology">
+          <a href="/#/news/Technology">
             <ListItem button key={4}>
               <ListItemIcon>
                 <InboxIcon />
@@ -181,7 +182,7 @@ export default function Navbars() {
         </List>
         <Divider />
         <List>
-          <a href="/news/entertainment">
+          <a href="/#/news/entertainment">
             <ListItem button key={4}>
               <ListItemIcon>
                 <InboxIcon />
@@ -189,7 +190,7 @@ export default function Navbars() {
               <ListItemText primary={"ENTERTAINMENT"} />
             </ListItem>
           </a>
-          <a href="/news/politics">
+          <a href="/#/news/politics">
             <ListItem button key={4}>
               <ListItemIcon>
                 <InboxIcon />
@@ -197,7 +198,7 @@ export default function Navbars() {
               <ListItemText primary={"POLITICS"} />
             </ListItem>
           </a>
-          <a href="/news/science">
+          <a href="/#/news/science">
             <ListItem button key={4}>
               <ListItemIcon>
                 <InboxIcon />
@@ -205,7 +206,7 @@ export default function Navbars() {
               <ListItemText primary={"SCIENCE"} />
             </ListItem>
           </a>
-          <a href="/Covid/States">
+          <a href="/#/Covid/States">
             <ListItem button key={4}>
               <ListItemIcon>
                 <InboxIcon />
