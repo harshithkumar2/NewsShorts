@@ -1,0 +1,47 @@
+.dark {
+  background-color: #000000;
+}
+
+.dark .cards {
+  background-color: #000000;
+  color: white;
+  border: 2px solid red;
+}
+
+.dark footer {
+  color: white;
+}
+.dark button {
+  color: red;
+}
+
+.dark table {
+  background-color: black;
+  color: white;
+  border: 2px solid red;
+}
+
+.dark .tcell {
+  background-color: black;
+  color: white;
+}
+.dark .trow {
+  color: white;
+}
+
+.dark .typo {
+  background-color: black;
+  color: white;
+}
+.theme-btn {
+  margin-left: auto;
+}
+
+.dark .container {
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
