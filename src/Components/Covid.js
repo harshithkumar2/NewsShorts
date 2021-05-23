@@ -10,6 +10,7 @@ import Paper from "@material-ui/core/Paper";
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import axios from "axios";
+import BarChart from "./BarChart";
 import "./spinner.css";
 
 const useStyles = makeStyles({
@@ -109,6 +110,7 @@ export default function Covid() {
             </TableRow>
           </TableBody>
         </Table>
+        <BarChart data={covid} />
       </TableContainer>
       <br />
     </Container>
