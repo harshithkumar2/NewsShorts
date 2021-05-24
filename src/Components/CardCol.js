@@ -8,6 +8,7 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import Col from "react-bootstrap/Col";
+import { WhatsappShareButton, WhatsappIcon } from "react-share";
 import "./Theme.css";
 
 const useStyles = makeStyles({
@@ -77,6 +78,11 @@ function CardCol(props) {
               Explore More
             </Button>
           </a>
+
+          <WhatsappShareButton url={datas.url} title={datas.title}>
+            {" "}
+            <WhatsappIcon style={{ maxWidth: "20px" }} />
+          </WhatsappShareButton>
         </CardActions>
       </Card>
     </Col>

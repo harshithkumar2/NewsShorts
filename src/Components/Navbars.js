@@ -147,22 +147,22 @@ export default function Navbars() {
               <ListItemText primary={"HOME"} />
             </ListItem>
           </Link>
-          <Link to="/news/Health">
+          <a href="/#/news/Health">
             <ListItem button key={1}>
               <ListItemIcon>
                 <InboxIcon />
               </ListItemIcon>
               <ListItemText primary={"HEALTH"} />
             </ListItem>
-          </Link>
-          <Link to="/news/Sports">
+          </a>
+          <a href="/#/news/Sports">
             <ListItem button key={2}>
               <ListItemIcon>
                 <InboxIcon />
               </ListItemIcon>
               <ListItemText primary={"SPORTS"} />
             </ListItem>
-          </Link>
+          </a>
           <a href="/#/news/Business">
             <ListItem button key={3}>
               <ListItemIcon>
@@ -206,14 +206,14 @@ export default function Navbars() {
               <ListItemText primary={"SCIENCE"} />
             </ListItem>
           </a>
-          <a href="/#/Covid/States">
+          <Link to="/Covid/States">
             <ListItem button key={4}>
               <ListItemIcon>
                 <InboxIcon />
               </ListItemIcon>
               <ListItemText primary={"COVID-19"} />
             </ListItem>
-          </a>
+          </Link>
         </List>
       </Drawer>
       <main
