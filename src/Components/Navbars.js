@@ -214,6 +214,14 @@ export default function Navbars() {
               <ListItemText primary={"COVID-19"} />
             </ListItem>
           </Link>
+          <Link to="/VaccineAppoint">
+            <ListItem button key={5}>
+              <ListItemIcon>
+                <InboxIcon />
+              </ListItemIcon>
+              <ListItemText primary={"APPOINTMENT"} />
+            </ListItem>
+          </Link>
         </List>
       </Drawer>
       <main

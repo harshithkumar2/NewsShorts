@@ -8,6 +8,9 @@ import "./Components/spinner.css";
 const App = React.lazy(() => import("./App"));
 const SeeNews = React.lazy(() => import("./Components/SeeNews"));
 const Cardss = React.lazy(() => import("./Components/Cardss"));
+const VaccineAppointment = React.lazy(() =>
+  import("./Components/VaccineAppointment")
+);
 const CovidStatesHome = React.lazy(() =>
   import("./Components/CovidStatesHome")
 );
@@ -30,6 +33,7 @@ function Routes() {
             <Route path="/Seenews" component={Cardss} />
             <Route path="/news/:data" component={SeeNews} />
             <Route path="/Covid/States" component={CovidStatesHome} />
+            <Route path="/VaccineAppoint" component={VaccineAppointment} />
           </Switch>
         </HashRouter>
       </Suspense>

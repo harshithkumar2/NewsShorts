@@ -45,3 +45,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+.dark .Textfield {
+  background-color: rgb(241, 238, 232);
+}
